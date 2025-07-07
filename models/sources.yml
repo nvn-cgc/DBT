@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: snowflake_dbt
+    database: snowflake_dbt
+    schema: practice
+    tables:
+      - name: bike
+      - name: weather_final
